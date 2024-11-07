@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import profile from '../../assets/profile.png';
+import profile from '../../assets/backgroundimg.png';
 import ug from '../../assets/ug.png';
 import hse from '../../assets/hse.png';
 import html from '../../assets/html.png';

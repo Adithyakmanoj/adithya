@@ -1,39 +1,64 @@
-/* Contact.css */
 .contact-container {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
-  
-  .submit-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  
-  .submit-button:hover {
-    background-color: #45a049;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px; /* Add space between the left and right columns */
+}
+
+.contact-left, .contact-right {
+  width: 48%;  /* Each section takes up 48% of the container's width */
+}
+
+.contact-left {
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-left h2 {
+  margin-bottom: 15px;
+}
+
+.contact-left p {
+  margin: 10px 0;
+}
+
+.contact-right {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-right h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
