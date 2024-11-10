@@ -18,7 +18,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Message sent! Thank you for reaching out.");
-    // Typically send the data to a server here
+    
   };
 
   return (
